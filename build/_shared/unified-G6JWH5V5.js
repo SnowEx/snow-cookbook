@@ -1,1 +1,1 @@
-import{b as a}from"/SnowPit-cookbook/build/_shared/chunk-KXDZNNUH.js";import"/SnowPit-cookbook/build/_shared/chunk-J6FHCSRC.js";import"/SnowPit-cookbook/build/_shared/chunk-2NH4LW52.js";export{a as unified};
+import{b as a}from"/snow-cookbook/build/_shared/chunk-KXDZNNUH.js";import"/snow-cookbook/build/_shared/chunk-J6FHCSRC.js";import"/snow-cookbook/build/_shared/chunk-2NH4LW52.js";export{a as unified};

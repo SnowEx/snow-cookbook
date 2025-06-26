@@ -1,1 +1,1 @@
-import{a}from"/SnowPit-cookbook/build/_shared/chunk-4WJGROSS.js";import"/SnowPit-cookbook/build/_shared/chunk-IDGM44X5.js";import"/SnowPit-cookbook/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/snow-cookbook/build/_shared/chunk-4WJGROSS.js";import"/snow-cookbook/build/_shared/chunk-IDGM44X5.js";import"/snow-cookbook/build/_shared/chunk-2NH4LW52.js";export default a();
