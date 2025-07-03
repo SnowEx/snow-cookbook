@@ -5,7 +5,8 @@ alt="thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/SnowEx/snow-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/SnowEx/snow-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/snowEx/snow-cookbook/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10519966.svg)](https://doi.org/10.5281/zenodo.10519966)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14205550.svg)](https://doi.org/10.5281/zenodo.14205550)
+
 
 This Project Pythia Cookbook is a compilation of tutorials and training 
 materials in support of the NASA snow reserach community. Some tutorials
