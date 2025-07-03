@@ -3,9 +3,10 @@ alt="thumbnail" width="300"/>
 
 # Snow Cookbook
 
-[![nightly-build](https://github.com/ICESAT-2HackWeek/icesat2-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ICESAT-2HackWeek/icesat2-cookbook/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ICESAT-2HackWeek/icesat2-cookbook/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10519966.svg)](https://doi.org/10.5281/zenodo.10519966)
+[![nightly-build](https://github.com/SnowEx/snow-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/SnowEx/snow-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/snowEx/snow-cookbook/main?labpath=notebooks)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14205550.svg)](https://doi.org/10.5281/zenodo.14205550)
+
 
 This Project Pythia Cookbook is a compilation of tutorials and training 
 materials in support of the NASA snow reserach community. Some tutorials
@@ -32,8 +33,8 @@ more to be added
 
 ### Contributors
 
-<a href="https://github.com/ICESAT-2HackWeek/icesat2-cookbook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ICESAT-2HackWeek/icesat2-cookbook" />
+<a href="https://github.com/SnowEx/snow-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SnowEx/snow-cookbook" />
 </a>
 
 ## Structure
@@ -82,20 +83,20 @@ If you are interested in running this material locally on your computer,
 you will need to follow this workflow:
 
 
-1. Clone the `https://github.com/ProjectPythia/icesat2-cookbook` repository:
+1. Clone the `https://github.com/ProjectPythia/snow-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/icesat2-cookbook.git
+    git clone https://github.com/ProjectPythia/snow-cookbook.git
    ```
 
-1. Move into the `icesat2-cookbook` directory
+1. Move into the `snow-cookbook` directory
    ```bash
-   cd cookbook-example
+   cd snow-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate icesat2-cookbook
+   conda activate snow-cookbook
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
