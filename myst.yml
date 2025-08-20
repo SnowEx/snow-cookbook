@@ -13,9 +13,27 @@ project:
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - title: Introduction
+    - title: Data Access
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/snowex_data_overview.ipynb
+        - file: notebooks/earthaccess_snowex.ipynb
+        - file: notebooks/snowex_database.ipynb
+    - title: Observations
+      children:
+          - file: notebooks/GPR_Lidar_HackweekTutorial.ipynb
+          - file: notebooks/thermal-ir-tutorial-pt1.ipynb
+          - file: notebooks/timelapse-camera-tutorial.ipynb
+          - file: notebooks/uavsar_accessing_imagery_pt1.ipynb
+          - file: notebooks/microstructure-tutorial.ipynb
+          - file: notebooks/aviris-ng-data.ipynb     
+          - file: notebooks/tls_data_access.ipynb     
+    - title: Analysis and Machine Learning
+      children:
+        - file: notebooks/pytorch_tutorial.ipynb
+        - file: notebooks/snowmodeling_tutorial_pt1.ipynb  
+        - file: notebooks/UCLA_data_access.ipynb   
+        - file: notebooks/merra2_data_access.ipynb
+        - file: notebooks/era5_data_access.ipynb   
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
