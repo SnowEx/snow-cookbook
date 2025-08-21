@@ -41,6 +41,7 @@ param = ">=1.13.0,<2"
 bokeh = ">=3.1.1,<4"
 folium = ">=0.20.0,<0.21"
 earthpy = ">=0.9.4,<0.10"
+netcdf4 = ">=1.7.2,<2"
 
 [environments]
 aviris-ng = {features = ["default", "aviris-ng"], solve-group = "default"}
