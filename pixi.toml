@@ -7,7 +7,7 @@ version = "0.1.0"
 
 [dependencies]
 numpy = "<=2.0"
-matplotlib = ">=3.10.5,<4"
+matplotlib-base = ">=3.10.5,<4"
 earthaccess = ">=0.14.0,<0.15"
 cdsapi = ">=0.7.6,<0.8"
 ecmwf-api-client = ">=1.6.5,<2"
@@ -43,28 +43,24 @@ folium = ">=0.20.0,<0.21"
 earthpy = ">=0.9.4,<0.10"
 
 [environments]
-default = {features = ["aviris-ng", "machine_learning"], solve-group = "default"}
+aviris-ng = {features = ["default", "aviris-ng"], solve-group = "default"}
+machine-learning = {features = ["machine-learning"], solve-group="machine-learning" }
 
 [feature.aviris-ng.dependencies]
 spectral = "*"
 
-[feature.machine_learning.pypi-dependencies]
+[feature.machine-learning.pypi-dependencies]
 metloom = "<0.9"
 torch = "<2.5"
 torchvision = ">=0.17.2, <0.20"
 torchaudio = ">=2.2.2, <3"
 
+[feature.machine-learning.dependencies]
+numpy = ">=2.0.0,<3"
+matplotlib-base = ">=3.10.5,<4"
+pandas = ">=2.3.2,<3"
+scikit-learn = ">=1.7.1,<2"
+
 [pypi-dependencies]
 snowmicropyn = ">=1.2.1, <2"
 uavsar-pytools = ">=0.7.1, <0.8"
-
-
-
-
-
-
-
-
-
-
-
