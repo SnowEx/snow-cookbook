@@ -39,16 +39,29 @@ more to be added
 
 ## Structure
 
-This cookbook is broken up into two main sections - "Foundations" 
-and "Example Workflows."
+This cookbook is broken up into three main sections: "Data Access", "Observations", and "Analysis and Machine Learning". The current listing of subtopics is currently a work in progress.
 
-### Section 1: Foundations
+### Section 1: Data Access
 
-* TBD
+* Field Campaigns Overview
+* SnowExSQL Database
 
-### Section 2: Example Workflows for Specific Disciplines
+### Section 2: Observations
 
-* TBD
+* GPR and Lidar
+* Time-lapse Cameras
+* UAVSAR
+* Microstructure
+* AVIRIS-NG
+* Terrestrial Laser Scanning
+
+### Section 3: Analysis and Machine Learning
+
+* Neural Networks with PyTorch
+* Snow Modeling
+* UCLA Reanalysis
+* MERRA-2
+* ERA5
 
 ## Running the Notebooks
 
