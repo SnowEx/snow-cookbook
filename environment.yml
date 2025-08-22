@@ -1,4 +1,4 @@
-name: aviris-ng
+name: default
 channels:
 - conda-forge
 - nodefaults
@@ -42,7 +42,8 @@ dependencies:
 - h5py >=3.14.0,<4
 - icepyx >=1.3.0,<2
 - pyproj >=3.7.2,<4
-- spectral *
+- mystmd
+- jupyterlab-myst
 - pip
 - pip:
   - snowmicropyn>=1.2.1, <2
