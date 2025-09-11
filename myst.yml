@@ -26,7 +26,10 @@ project:
           - file: notebooks/uavsar_accessing_imagery_pt1.ipynb
           - file: notebooks/microstructure-tutorial.ipynb
           - file: notebooks/aviris-ng-data.ipynb     
-          - file: notebooks/tls_data_access.ipynb     
+          - file: notebooks/tls_data_access.ipynb
+          - file: notebooks/is2_snow_depth_workflow.ipynb
+          - file: notebooks/snotel_data_access.ipynb
+          - file: notebooks/snow-pit_data_access.ipynb
     - title: Analysis and Machine Learning
       children:
         - file: notebooks/pytorch_tutorial.ipynb
