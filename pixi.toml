@@ -45,6 +45,8 @@ netcdf4 = ">=1.7.2,<2"
 h5py = ">=3.14.0,<4"
 icepyx = ">=1.3.0,<2"
 pyproj = ">=3.7.2,<4"
+myst-parser = ">=4.0.1,<5"
+mystmd = ">=1.6.1,<2"
 
 [environments]
 aviris-ng = {features = ["default", "aviris-ng"], solve-group = "default"}
