@@ -40,3 +40,5 @@ project:
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
+      execute:
+        enabled: false  # Don't execute in CI - notebooks must be valid without execution
