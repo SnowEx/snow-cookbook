@@ -11,6 +11,8 @@ jobs:
   build:
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
     timeout-minutes: 60  # Timeout after 1 hour
+    with:
+      build_command: 'myst build --html'  # Remove --execute flag to respect myst.yml config
     secrets:
       EARTHDATA_USERNAME: ${{ secrets.EARTHDATA_USER }}
       EARTHDATA_PASSWORD: ${{ secrets.EARTHDATA_PASS }}
