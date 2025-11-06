@@ -1,4 +1,4 @@
-name: default
+name: snowex-cookbook-dev
 channels:
 - conda-forge
 - nodefaults
