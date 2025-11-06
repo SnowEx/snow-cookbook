@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - delete-ML  # Add your test branch
   workflow_dispatch:
 
 jobs:
