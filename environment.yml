@@ -46,7 +46,10 @@ dependencies:
 - mystmd >=1.6.1,<2
 - jupyterlab
 - jupyterlab-myst
+- spectral
+- cmcrameri
 - pip
 - pip:
   - snowmicropyn>=1.2.1, <2
   - uavsar-pytools>=0.7.1, <0.8
+  - metloom
