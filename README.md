@@ -1,3 +1,7 @@
+# ARCHIVED APRIL 2026. 
+
+See [Project Pythia snow observations cookbook](https://projectpythia.org/snow-observations-cookbook/) for latest material.
+
 <img src="https://snow.nasa.gov/sites/default/files/inline-images/snow-banner.png" 
 alt="thumbnail" width="300"/>
 
